@@ -31,7 +31,7 @@ def Dijsktra(graph,src,dest):
     print("Shortest path to the problem is : " + str(node_data[dest]['predecessor'] + list(dest)))       
 
 
- a,b,c,d,e,f = input('Enter the Desired Values')
+
 if __name__ == "__main__":
     graph = {
         'A':{'B':2 , 'C':5},
